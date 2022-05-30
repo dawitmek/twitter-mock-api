@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Tiro+Devanagari+Hindi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Tiro Devanagari Hindi';
+}
+
+h4 {
+    display: inline;
+}
+
+.all-content-container {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightskyblue;
+}
+
+.cover-pic {
+    width: 100%;
+    height: 300px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translateY(-50%);
+    border-radius: 100%;
+    border: 5px solid white;
+    
+}
+
+.profile-description {
+    width: 100%;
+    height: 250px;
+}
+
+.tweets-container {
+    width: 100%;
+}
+
+.profile-detail {
+    margin: 90px 0px 0px 60px;
+}
+
+.handle {
+    color: grey;
+    font-weight: 400;
+}
+
+.joined {
+    margin: 20px 0 ;
+    font-weight: 400;
+    color: grey;
+}
+
+.tweet-box {
+    width: 60%;
+    height: 10%;
+    padding: 15px;
+    margin: auto;
+    display: flex;
+}
+
+.tweet-body {
+    padding-left: 20px;
+}
+
+.tweet-header {
+    font-size: 17px;
+}
+
+.tweet-content {
+    padding: 8px 0px 30px;
+    font-size: 1.1rem;
+}
+
+.following, .followers {
+    font-size: 18px;
+}
+.following {
+    margin-right: 20px;
+}
+
+.small-pfp img {
+    width: 55px;
+    border-radius: 100%;
+    margin-left: 15px;
+}
+
+
+.tweet-box .user-name {
+    font-size: 20px;
+}
+
+.tweet-box .handle {
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+.date {
+    font-weight: 400;
+}
